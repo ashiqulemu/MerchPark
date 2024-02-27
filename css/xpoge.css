@@ -842,6 +842,27 @@ header.header-fixed {
 	padding: 0;
 	margin-right: 0;
 }
+.nav-text{
+	font-size: 3rem;
+    /* background: #fff; */
+    /* padding: 15px; */
+    /* border: 3px solid black; */
+    color: white !important;
+    /* -webkit-text-stroke-width: thick; */
+    /* -webkit-text-stroke-color: blue; */
+    text-shadow: -2px 2px 0px #0000008a;
+}
+
+.navbar-header .navbar-brand img{
+	width: 235px;
+    height: auto;
+    position: relative;
+    top: 7px;
+	filter: drop-shadow(0px 1px 8px #000);
+}
+.footer-logo img{
+	width: 70px;
+}
 
 /* Header right part start */
 .header-right-link {
@@ -1081,6 +1102,13 @@ header.header-fixed {
 }
 
 /* --- Megamenu Style --- */
+
+#header{
+	background: gray;
+	max-height: 150px;
+	border-bottom: 5px solid black;
+}
+
 #header .nav > li:first-child a {
     padding-left: 0;
 }
@@ -1381,7 +1409,19 @@ _______________________________________________________*/
 /* Sub-banner css start */
 .sub-banner-part {
 	margin-bottom: -30px;
+	margin-top: 160px;
 }
+
+@media(max-width:768px){
+	.sub-banner-part {
+		margin-bottom: -30px;
+		margin-top: 150px;
+	}
+	#header{
+		height: 140px;
+	}
+}
+
 .sub-banner-box {
     position: relative;
     overflow: hidden;
@@ -2897,4 +2937,11 @@ footer .social-media ul {
 
 .footer-bottom p a {
 	color: #f22a59;
+}
+
+
+@media(max-width:768px){
+	.nav-text{
+		font-size: 1.3rem;
+	}
 }

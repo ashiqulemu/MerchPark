@@ -664,9 +664,10 @@
 		font-size: 20px;
 	}
 	.footer-static-block .footer-block-contant {
-		display: none;
+		/* display: none; */
 		margin-bottom: 20px;
 	}
+	 
 
 	footer [class*="col-"]:last-child .footer-static-block {
 		border-bottom: none;
@@ -676,7 +677,7 @@
 		background: url(../images/sprite.png) no-repeat scroll 0 0;
 		height: 30px;
 		width: 30px;
-		display: inline-block;
+		display:none;
 		position: absolute;
 		right: 0;
 		cursor: pointer;
