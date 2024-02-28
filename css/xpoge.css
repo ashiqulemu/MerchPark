@@ -843,14 +843,9 @@ header.header-fixed {
 	margin-right: 0;
 }
 .nav-text{
-	font-size: 3rem;
-    /* background: #fff; */
-    /* padding: 15px; */
-    /* border: 3px solid black; */
-    color: white !important;
-    /* -webkit-text-stroke-width: thick; */
-    /* -webkit-text-stroke-color: blue; */
-    text-shadow: -2px 2px 0px #0000008a;
+	font-size: 3rem; 
+    color: white !important; 
+    text-shadow: 3px 2px 0px #0000008a; 
 }
 
 .navbar-header .navbar-brand img{
