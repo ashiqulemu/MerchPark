@@ -870,8 +870,7 @@ header.header-fixed {
 
 .header-links {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; 
   gap: 5px;
 }
 
@@ -3151,11 +3150,15 @@ footer .social-media ul {
   .nav-text {
     font-size: 0.9rem;
   }
+  .left-menu {
+    flex-direction: column ;
+    display: flex;
+    gap: 0;
+  }
   .right-menu {
     flex-direction: column-reverse;
     display: flex;
     gap: 0;
-	justify-content: center!important;
   }
   .navbar-header .navbar-brand img {
     width: 140px;
