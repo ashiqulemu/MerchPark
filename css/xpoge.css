@@ -3168,3 +3168,16 @@ footer .social-media ul {
     font-size: 1.5rem; 
   }
 }
+
+@media (max-width:480px) {
+ 
+  .navbar-header .navbar-brand img {
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    top: 62px;
+    filter: drop-shadow(0px 1px 3px #000);
+    left: 39%;
+}
+
+}
