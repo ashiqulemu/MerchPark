@@ -3188,3 +3188,8 @@ footer .social-media ul {
     left: 35%;
   }
 }
+
+.drop-categories .dropdown-item:hover{
+  background-color: red;
+  color: #fff;
+}
